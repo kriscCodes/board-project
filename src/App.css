@@ -1,0 +1,26 @@
+
+
+
+.foodCards{
+  text-align: center;
+}
+
+.cardBoard{
+  border: 1px solid white;
+  display: grid;
+  width: 100%;
+}
+
+.cardImage{
+  width: 500px;
+  height: 300px;
+}
+
+.cardName{
+  text-align: center;
+}
+
+.cardCuisine{
+  text-align: center;
+}
+
