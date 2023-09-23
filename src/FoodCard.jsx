@@ -6,7 +6,7 @@ export default function FoodCard(props) {
 				<img className = "cardImage" src={props.source}></img>
 				<h3 className = "cardName">{props.name}</h3>
 				<h4 className = "cardCuisine">{props.cuisine}</h4>
-					<a href={props.menu}>
+				<a href={props.menu}>
 				<button className = "cardButton">View Menu :D</button>
 				</a>
 			</div>

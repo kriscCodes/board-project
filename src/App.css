@@ -1,14 +1,26 @@
+html, body{
+  width: 100%;
+}
 
+h1{
+  text-align: center;
+}
 
+.contain{
+  width: 99vw;
+  height: fit-content;
+}
 
 .foodCards{
   text-align: center;
 }
 
 .cardBoard{
-  border: 1px solid white;
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   width: 100%;
+  height: 82vh;
 }
 
 .cardImage{
@@ -24,3 +36,21 @@
   text-align: center;
 }
 
+
+@media (min-width: 1024px) {
+  .cardBoard {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 750px) {
+  .cardBoard {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 500px) {
+  .cardBoard {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
